@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		08743DCF208FA32B00313E96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08743DCE208FA32B00313E96 /* AppDelegate.swift */; };
-		08743DD1208FA32B00313E96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08743DD0208FA32B00313E96 /* ViewController.swift */; };
 		08743DD4208FA32B00313E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08743DD2208FA32B00313E96 /* Main.storyboard */; };
 		08743DD6208FA33100313E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08743DD5208FA33100313E96 /* Assets.xcassets */; };
 		08743DD9208FA33100313E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08743DD7208FA33100313E96 /* LaunchScreen.storyboard */; };
+		08743DE1208FAD3A00313E96 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08743DE0208FAD3A00313E96 /* GoogleService-Info.plist */; };
+		08743DE420900BC300313E96 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08743DE320900BC300313E96 /* RegisterViewController.swift */; };
+		08743DE62090182600313E96 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08743DE52090182600313E96 /* MenuViewController.swift */; };
+		08743DE82090183D00313E96 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08743DE72090183D00313E96 /* SettingViewController.swift */; };
+		08743DEA209040D400313E96 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08743DE9209040D400313E96 /* TabBarViewController.swift */; };
+		08743DEC20908AFE00313E96 /* BusinessCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08743DEB20908AFE00313E96 /* BusinessCardViewController.swift */; };
+		CF13F06751772A915CACAA32 /* Pods_SendCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52501594BE3F4128E97F5AB /* Pods_SendCard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08743DCB208FA32A00313E96 /* SendCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08743DCE208FA32B00313E96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08743DD0208FA32B00313E96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		08743DD3208FA32B00313E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08743DD5208FA33100313E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08743DD8208FA33100313E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08743DDA208FA33100313E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08743DE0208FAD3A00313E96 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08743DE320900BC300313E96 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		08743DE52090182600313E96 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		08743DE72090183D00313E96 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		08743DE9209040D400313E96 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		08743DEB20908AFE00313E96 /* BusinessCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardViewController.swift; sourceTree = "<group>"; };
+		753834CFE4D7E0126D8E985C /* Pods-SendCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-SendCard/Pods-SendCard.release.xcconfig"; sourceTree = "<group>"; };
+		A52501594BE3F4128E97F5AB /* Pods_SendCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A3823C51BF9DC5B72FECDD /* Pods-SendCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SendCard/Pods-SendCard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF13F06751772A915CACAA32 /* Pods_SendCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				08743DCD208FA32A00313E96 /* SendCard */,
 				08743DCC208FA32A00313E96 /* Products */,
+				F9A80DC8574CEB5E46999B58 /* Pods */,
+				44D96FA2AB116436C29CE480 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,44 @@
 		08743DCD208FA32A00313E96 /* SendCard */ = {
 			isa = PBXGroup;
 			children = (
+				08743DE220900BA100313E96 /* ViewControllers */,
 				08743DCE208FA32B00313E96 /* AppDelegate.swift */,
-				08743DD0208FA32B00313E96 /* ViewController.swift */,
 				08743DD2208FA32B00313E96 /* Main.storyboard */,
 				08743DD5208FA33100313E96 /* Assets.xcassets */,
 				08743DD7208FA33100313E96 /* LaunchScreen.storyboard */,
 				08743DDA208FA33100313E96 /* Info.plist */,
+				08743DE0208FAD3A00313E96 /* GoogleService-Info.plist */,
 			);
 			path = SendCard;
+			sourceTree = "<group>";
+		};
+		08743DE220900BA100313E96 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08743DE320900BC300313E96 /* RegisterViewController.swift */,
+				08743DE52090182600313E96 /* MenuViewController.swift */,
+				08743DE72090183D00313E96 /* SettingViewController.swift */,
+				08743DE9209040D400313E96 /* TabBarViewController.swift */,
+				08743DEB20908AFE00313E96 /* BusinessCardViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44D96FA2AB116436C29CE480 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A52501594BE3F4128E97F5AB /* Pods_SendCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9A80DC8574CEB5E46999B58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8A3823C51BF9DC5B72FECDD /* Pods-SendCard.debug.xcconfig */,
+				753834CFE4D7E0126D8E985C /* Pods-SendCard.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08743DDD208FA33100313E96 /* Build configuration list for PBXNativeTarget "SendCard" */;
 			buildPhases = (
+				40EF8A3C3240A804A7945294 /* [CP] Check Pods Manifest.lock */,
 				08743DC7208FA32A00313E96 /* Sources */,
 				08743DC8208FA32A00313E96 /* Frameworks */,
 				08743DC9208FA32A00313E96 /* Resources */,
+				473313C0067860B15427A7E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08743DD9208FA33100313E96 /* LaunchScreen.storyboard in Resources */,
+				08743DE1208FAD3A00313E96 /* GoogleService-Info.plist in Resources */,
 				08743DD6208FA33100313E96 /* Assets.xcassets in Resources */,
 				08743DD4208FA32B00313E96 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +180,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40EF8A3C3240A804A7945294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SendCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		473313C0067860B15427A7E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SendCard/Pods-SendCard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Gradientable/Gradientable.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gradientable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendCard/Pods-SendCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08743DC7208FA32A00313E96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08743DD1208FA32B00313E96 /* ViewController.swift in Sources */,
+				08743DEC20908AFE00313E96 /* BusinessCardViewController.swift in Sources */,
 				08743DCF208FA32B00313E96 /* AppDelegate.swift in Sources */,
+				08743DE62090182600313E96 /* MenuViewController.swift in Sources */,
+				08743DE420900BC300313E96 /* RegisterViewController.swift in Sources */,
+				08743DEA209040D400313E96 /* TabBarViewController.swift in Sources */,
+				08743DE82090183D00313E96 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -278,10 +383,11 @@
 		};
 		08743DDE208FA33100313E96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A3823C51BF9DC5B72FECDD /* Pods-SendCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4URJ54RTED;
+				DEVELOPMENT_TEAM = BBJD87GN28;
 				INFOPLIST_FILE = SendCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,10 +402,11 @@
 		};
 		08743DDF208FA33100313E96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 753834CFE4D7E0126D8E985C /* Pods-SendCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4URJ54RTED;
+				DEVELOPMENT_TEAM = BBJD87GN28;
 				INFOPLIST_FILE = SendCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
